@@ -1,0 +1,178 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="reset.css" />
+    <link rel="stylesheet" media="screen and (min-width : 480px) and (max-width : 767px)" href="skilllkrips_mobile.css" />
+</head>
+
+<body>
+    <header>
+            <img src="logo.png">
+
+            <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+            <input type="checkbox" id="toggle-1">
+            
+            <nav>
+            <ul>
+            <li><a href="#logo"><i class="icon-home"></i>Home</a></li>
+            <li><a href="#about"><i class="icon-user"></i>About</a></li>
+            <li><a href="#portfolio"><i class="icon-thumbs-up-alt"></i>Portfolio</a></li>
+            <li><a href="#services"><i class="icon-gear"></i>Services</a></li>
+            <li><a href="#gallery"><i class="icon-picture"></i>Gallery</a></li>
+            <li><a href="#contact"><i class="icon-phone"></i>Contact</a></li>
+            </ul>
+            </nav>
+            
+            
+    </header>
+
+    <section id = "section1">
+        <h1>Skill-Krips</h1>
+        <h2>Skills Sucess Bar</h2>
+        <div class="pSection1">
+        <p>Découvrez les barres de céréales Skill-Krips.<br/>
+            Vous êtes souvent occupée ?<br/>
+            Souvent en déplacement ?<br/>
+            Essayez Skill-Krips, la Skill Success Bar.<br/> 
+            L’encas qui vous pousse au sommet !</p> 
+        </div>
+    </section>
+
+    <h3>Nos barres préférées</h3>
+
+    <section id = "section2">
+        
+        <div id="barreUne">
+            <img class= "barre1" src="barre1.png" alt="Photo de la barre goût Cranberries et Menth" >
+
+            <div class="pannierBarre1">
+                <div class="texte1">
+                    <h4>Cranberries et Menth</h4>
+                </div>
+                <div class="bouton1">
+                    <p><button type="submit" value="valider">Ajouter au panier</button> 3,49 €</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="barreDeux">
+            <img class= "barre2" src="barre2.png" alt="Photo de la barre goût Goji Hibiscus" >
+            <div class="pannierBarre2">
+                <div class="texte2">
+                    <h4>Goji et Hibiscus</h4>
+                </div>
+                <div class="bouton2">
+                    <p><button type="submit" value="valider">Ajouter au panier</button> 3,49 €</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="barreTrois">
+            <img class= "barre3" src="barre3.png" alt="Photo de la barre goût Fraise et Guarana" >
+            <div class="pannierBarre3">
+                <div class="texte3">
+                    <h4>Fraise et Guarana</h4>
+                </div>
+                <div class="bouton3">
+                    <p><button type="submit" value="valider">Ajouter au panier</button> 3,49 €</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "section3">
+
+        <div id="pot">
+            <img src="pot.png" alt="photo du pot skilllkrips" >
+        </div>
+
+        <div id="about">
+            <div class="aboutEco">
+                <h5>About us</h5>
+                <img src="logoeco.png" alt="Photo du logo écologique">
+            </div>
+
+            <p class="texteAbout">Entreprise familiale depuis plus de 40 ans et en partenariat <br/>
+                avec nos producteurs regionaux pour les céréales Bio.<br/>
+                Toujours à la recherche de nouvelles saveurs , nous voyageons <br/>
+                partout dans le monde afin de vous garantir toujours au mieux,<br/>
+                une agriculture biologique et eco-responsable.</p>
+        </div>
+    </section>
+    <section id="section4">
+        
+            <form id="formulaire" action="mapage.php" method="POST">
+                <div class="div">
+                    <label for="nom" name="nom"></label>
+                    <input type="text" name="nom" placeholder="Nom">
+                </div>
+                <div class="div">
+                    <label for="prenom" name="prenom"></label>
+                    <input type="text" name="prenom" placeholder="Prenom">
+                </div>
+                <div class="div">
+                    <label for="mail" name="mail"></label>
+                    <input type="text" name="mail" placeholder="Mail">
+                </div>
+                <div class="div">
+                    <label for="message" name="message"></label>
+                    <input type="text" name="message" placeholder="Votre message"></textarea>
+                </div>
+                <div class="contact">
+                    <button type="submit" value="valider">Contact</button>
+                </div>
+            </form>
+        
+
+        <div id="adresse">
+            <div class="bloc_gauche">
+                <h6>Skill-Krips </h6><br/>
+                <p>2, rue de la fôret <br/>
+                25310 Herimoncourt </p>
+            </div>
+            <img class="bloc_droit" src="barre.png" />
+        </div>
+    </section>
+        
+    <footer>
+            
+        <div class="p1">
+            <h6>Top Products</h6>
+            <p id="pFooter">Managed Website</p>
+            <p id="pFooter">Manage Reputation</p>
+            <p id="pFooter">Marketing Service</p>
+        </div>
+        <div class="p2">
+            <h6>Quicks links</h6>   
+            <p id="pFooter">Managed Website</p>
+            <p id="pFooter">Manage Reputation</p>
+            <p id="pFooter">Marketing Service</p>
+        </div>
+        <div class="p3">
+            <h6>Features</h6>  
+            <p id="pFooter">Managed Website</p>
+            <p id="pFooter">Manage Reputation</p>
+            <p id="pFooter">Marketing Service</p>
+        </div>
+        <div class="p4">
+            <h6>Resources</h6>          
+            <p id="pFooter">Managed Website</p>
+            <p id="pFooter">Manage Reputation</p>
+            <p id="pFooter">Marketing Service</p>
+        </div>
+        <div class="p5">
+            <h6>Newsletter</h6>              
+            <p id="pFooter">Stay updated with our latest trends</p> 
+            <div class="letter">
+                <label for="Newsletter" name="Newsletter"></label>
+                <input id="inputLetter" type="text" name='Newsletter' placeholder="entré votre mail ici">
+                <button id="boutonLetter"></button>
+            </div>          
+        </div>      
+    </footer>
+</body>
+</html>
